@@ -1,0 +1,1 @@
+This is a website from The Odin Project that tasks you you with building a Google Homepage clone using what the lessons have currently taught in HTML & CSS.
