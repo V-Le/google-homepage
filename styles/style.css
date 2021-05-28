@@ -1,0 +1,44 @@
+* {
+    font-family: roboto, arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 14px
+}
+
+.left-side, .right-side {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+li a {
+    font-size: 14px;
+    display: flex;
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    color: black;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.app-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.account-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
