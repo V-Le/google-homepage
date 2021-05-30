@@ -1,5 +1,5 @@
 * {
-    font-family: roboto, arial, sans-serif;
+    font-family: arial, sans-serif;
     padding: 0px;
     margin: 0px;
 }
@@ -7,11 +7,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 14px
-}
-
-.left-side, .right-side {
-    display: flex;
+    margin: 15px
 }
 
 ul {
@@ -26,10 +22,19 @@ li a {
     text-decoration: none;
     padding: 0px 10px 0px 10px;
     color: black;
+    
 }
 
 li a:hover {
     text-decoration: underline;
+}
+
+.left-side, .right-side {
+    display: flex;
+}
+
+.right-side li a {
+    font-size: 13px;
 }
 
 .app-icon {
@@ -41,4 +46,31 @@ li a:hover {
     width: 32px;
     height: 32px;
     border-radius: 50%;
+}
+
+.google-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+} 
+
+.search-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar-container {
+    display:flex;
+    flex-direction: row;
+    width: 582px;
+    height: 44px;
+    border: 1px solid black;
+}
+
+.search-magnify-icon {
+    display: flex;
+    width: 33px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
 }
