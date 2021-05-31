@@ -12,7 +12,7 @@
     justify-content: space-between;
 }
 
-.header {
+.header, .footer {
     display: flex;
     justify-content: space-between;
     margin: 15px
@@ -138,19 +138,19 @@ li a:hover {
     margin: 4px;
 }
 
-.google-footer {
-    display: flex;
-    justify-content: space-between;
-    margin: 15px;
-}
-
-.google-footer ul {
-    display: flex;
-    padding: 0px 20px 0px 20px;
-    color:rgb(143, 143, 143)
+.footer {
+    background-color:rgb(245, 245, 245);
+    width: 100%;
+    height: 46px;
+    margin: 0 auto;
 }
 
 .google-footer-left, .google-footer-right {
     display: flex;
-    flex-direction: column;
+    padding: 0px 40px;
+}
+
+.google-footer-left li a, .google-footer-right li a {
+    color:rgb(109, 109, 109);
+    font-size: .94rem;
 }
